@@ -1,6 +1,6 @@
 function youtubeUnsubscriber() {
     var count = document.querySelectorAll("ytd-channel-renderer:not(.ytd-item-section-renderer)").length;
-    var randomDelay = 500;
+    var randomDelay = 2000;
     if(count == 0) return false;
 
     function unsubscribeVisible(randomDelay) {
