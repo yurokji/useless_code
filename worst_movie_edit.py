@@ -22,10 +22,10 @@
 # pip install moviepy
 
 # 5. Go edit your file!
-# python worst_movie_edit.py original.mp4 
+# python worst_movie_edit.py original.mp4 --> orignal_edited.mp4 
 
 # 6. Add some cool background audio
-# python add_music.py
+# python add_music.py original_edited.mp4 --> original_edited_music.mp4
 
 
 from vosk import Model, KaldiRecognizer, SetLogLevel
